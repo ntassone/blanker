@@ -1,0 +1,25 @@
+/*
+   Layout (Grid, Reusable layotus)
+   ========================================================================== */
+
+.container {
+	@include outer-container();
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &.mobile-full {
+    padding-left: 0;
+    padding-right: 0;
+
+    .mobile-padded {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+  }
+
+}

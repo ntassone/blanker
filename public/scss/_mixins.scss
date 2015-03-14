@@ -1,0 +1,5 @@
+@mixin screen($feature, $breakpoint) {
+    @media only screen and ($feature: $breakpoint) {
+    	@content;
+    }
+}

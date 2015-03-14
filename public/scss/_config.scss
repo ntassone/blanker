@@ -1,0 +1,53 @@
+//Colors
+$black:           #363636;
+$blue:        		#5dbbd9;
+$red:         		#ff5252;
+$gray:        		#7d7d7d;
+$gray-dark:   		#464646;
+$gray-darker: 		#363636;
+$gray-darkest:    #222222;
+$gray-light:      #C1C1C1;
+$gray-lighter:    #d6d6d6;
+$gray-lightest:   #eeeeee;
+
+
+//Fonts
+$font-sans:          Helvetica, Arial, sans-serif;
+$font-serif:         Georgia, serif;
+$font-cursive:       cursive;
+$base-font-size:     18px;
+$base-font-family:   $font-sans;
+$base-font-color:    $gray-darkest;
+$header-font-family: $font-sans;
+$link-color:         $base-font-color;
+
+//Font Weights
+$thin:              100;
+$light:             300;
+$regular:           400;
+$semibold:          600;
+$bold:              700;
+$extrabold:         800;
+$ultra:             900;
+
+//Layout
+$margin:       		  20px;
+$max-width:         980px;
+
+//Misc
+$shadow:            0 2px 5px fade-out(black, .75);
+$border-color:      fade-out(white, .9);
+
+//Btns
+$btn-width:         300px;
+$btn-border:        3px;
+$btn-padding:       1.5em;
+
+//Grid
+$border-box-sizing: true !default;
+
+//Screen Sizes
+$laptop-screen:   1200px;
+$small-screen: 		945px;
+$tablet:       		768px;
+$mobile:       		500px;
